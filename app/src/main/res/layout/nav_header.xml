@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fcfc01"
+    android:padding="10dp"
+
+
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iconphoto"
+        android:layout_width="106dp"
+        android:layout_height="147dp"
+        android:src="@drawable/me"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:civ_border_width="2dp"
+        android:onClick="iconPhoto"
+        />
+    <TextView
+        android:id="@+id/iconName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karan Negi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iconphoto"
+        android:textStyle="bold"
+        android:onClick="name"
+        style="@style/TextAppearance.AppCompat.Body1"
+
+        />
+    <TextView
+        android:id="@+id/iconEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Knegi3075@gmail.com"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iconName"
+        android:textStyle="bold"
+        style="@style/TextAppearance.AppCompat.Body1"
+
+        />
+
+</RelativeLayout>

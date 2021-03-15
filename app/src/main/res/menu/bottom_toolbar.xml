@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/abc_btn_radio_material"
+    android:title="TRENDING"
+    />
+    <item
+        android:id="@+id/message"
+        android:icon="@drawable/abc_btn_radio_material"
+        android:title="NEW FEEDS"
+        />
+    <item
+        android:id="@+id/radio"
+        android:icon="@drawable/abc_btn_radio_material"
+        android:title="NEWS UPLOAD"
+        />
+</menu>

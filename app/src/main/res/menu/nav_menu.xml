@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+       <item android:title="Fatures">
+                       <item
+                           android:id="@+id/h"
+                           android:icon="@drawable/abc_btn_radio_material"
+                           android:title="Home" />
+           <item
+               android:id="@+id/m"
+               android:icon="@drawable/abc_btn_radio_material"
+               android:title="Notifications" />
+
+           <item
+               android:id="@+id/songs"
+               android:icon="@drawable/abc_btn_radio_material"
+               android:title="Messages" />
+
+
+       </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="About us">
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@drawable/abc_btn_radio_material"
+                android:title="About Us" />
+            <item
+                android:id="@+id/contactus"
+                android:icon="@drawable/abc_btn_radio_material"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/message"
+                android:icon="@drawable/abc_btn_radio_material"
+                android:title="Message Us" />
+
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Log-Out">
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/abc_btn_radio_material"
+                android:title="LOGOUT" />
+        </item>
+    </group>
+
+
+    <!--            <item-->
+<!--                android:id="@+id/h"-->
+<!--                android:icon="@drawable/ic_baseline_home_24"-->
+<!--                android:title="Home" />-->
+<!--            <item-->
+<!--                android:id="@+id/m"-->
+<!--                android:icon="@drawable/ic_baseline_message_24"-->
+<!--                android:title="Message" />-->
+<!--            <item-->
+<!--                android:id="@+id/songs"-->
+<!--                android:icon="@drawable/abc_btn_radio_material"-->
+<!--                android:title="Songs" />-->
+<!--            <item-->
+<!--                android:id="@+id/tunes"-->
+<!--                android:icon="@drawable/abc_btn_radio_material"-->
+<!--                android:title="Tunes" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/logout"-->
+<!--                android:icon="@drawable/abc_btn_radio_material"-->
+<!--                android:title="Logout" />-->
+
+
+</menu>

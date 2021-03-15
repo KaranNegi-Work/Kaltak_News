@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--    android:background="@color/colorAccent"-->
+<!--    android:orientation="vertical">-->
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/imagelayout">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageview"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageview"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:id="@+id/choosephoto"
+        android:layout_marginBottom="79dp"
+        android:text="Select photo" />
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagelayout"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Title..."
+        android:background="@drawable/edittext_view"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="10dp"
+        android:lines="3" />
+    <EditText
+        android:id="@+id/article"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="top|left"
+        android:hint="Full Artical here...."
+        android:inputType="textMultiLine"
+        android:background="@drawable/edittext_view"
+      android:layout_below="@+id/title"
+        android:lines="5" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/upload"
+       android:layout_below="@+id/article"
+        android:layout_centerHorizontal="true"
+        android:text="Upload"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/progressbar"
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
